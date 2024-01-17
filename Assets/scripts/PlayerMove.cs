@@ -5,10 +5,17 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 
 {
+    public Rigidbody2D rBody;
     public Vector3 newPosition = new Vector3(50, 5, 0);
-    public float movimentSpeed = 5;
+    public float movementSpeed = 5;
     private float inputHorizontal;
     public bool jump = false;
+    public float jumpForce = 5;
+
+    void Awake()
+    {
+        rBody = GetComponent<Rigidbody2D>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -21,10 +28,12 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         inputHorizontal = Input.GetAxis("Horizontal");
-        //transform.position = transform.position + new Vector3(1, 0, 0) * movimentSpeed * Time.deltaTime;
-        transform.position += new Vector3(inputHorizontal, 0, 0) * movimentSpeed * Time.deltaTime;
+        //transform.position = transform.position + new Vector3(1, 0, 0) * movementSpeed * Time.deltaTime;
+        //transform.position += new Vector3(inputHorizontal, 0, 0) * movementSpeed * Time.deltaTime;
 
-        if(jump == true)
+            // (rBody.velocity) rBody seria para la nomenclatura: que es. y el punto sirve para empezar poniendo el valor que quedras ver;
+        
+       /* if(jump == true)
         {
             Debug.Log("estoy saltando");
         }
@@ -34,7 +43,22 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            Debug.Log("yooooo");
+            Debug.Log("assda");
+        }*/
+
+        if(Input.GetButtonDown("Jump"))
+        {
+            rBody.AddForce(new Vector2(0,1) * jumpForce, ForceMode2D.Impulse);
         }
     }
+
+        //el fixedupdate no vambia los valores por fps, en cambio el update tiene en cuenta los fps;
+    void FixedUpdate()
+    {
+        rBody.velocity = new Vector2(inputHorizontal * movementSpeed, rBody.velocity.y);
+    }
+
+
+
+
 }
