@@ -11,6 +11,7 @@ public class PlayerMove : MonoBehaviour
     private float inputHorizontal;
     public bool jump = false;
     public float jumpForce = 5;
+    public GroundSensor sensor;
 
     void Awake()
     {
@@ -46,8 +47,9 @@ public class PlayerMove : MonoBehaviour
             Debug.Log("assda");
         }*/
 
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Jump") && sensor.isGrounded == true)
         {
+
             rBody.AddForce(new Vector2(0,1) * jumpForce, ForceMode2D.Impulse);
         }
     }
