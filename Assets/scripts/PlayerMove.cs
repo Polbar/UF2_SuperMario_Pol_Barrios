@@ -5,17 +5,21 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 
 {
-    public Rigidbody2D rBody;
     public Vector3 newPosition = new Vector3(50, 5, 0);
     public float movementSpeed = 5;
     private float inputHorizontal;
     public bool jump = false;
+    public Rigidbody2D rBody;
     public float jumpForce = 5;
     public GroundSensor sensor;
+    public SpriteRenderer render;
+    public Animator anim;
 
     void Awake()
     {
         rBody = GetComponent<Rigidbody2D>();
+        render = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     // Start is called before the first frame update
@@ -32,8 +36,6 @@ public class PlayerMove : MonoBehaviour
         //transform.position = transform.position + new Vector3(1, 0, 0) * movementSpeed * Time.deltaTime;
         //transform.position += new Vector3(inputHorizontal, 0, 0) * movementSpeed * Time.deltaTime;
 
-            // (rBody.velocity) rBody seria para la nomenclatura: que es. y el punto sirve para empezar poniendo el valor que quedras ver;
-        
        /* if(jump == true)
         {
             Debug.Log("estoy saltando");
@@ -44,23 +46,33 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            Debug.Log("assda");
+            Debug.Log("yooooo");
         }*/
-
+        
         if(Input.GetButtonDown("Jump") && sensor.isGrounded == true)
         {
-
-            rBody.AddForce(new Vector2(0,1) * jumpForce, ForceMode2D.Impulse);
+               rBody.AddForce(new Vector2(0,1) * jumpForce, ForceMode2D.Impulse);   
+               anim.SetBool("IsJumping", true);
+        }
+        
+        if(inputHorizontal < 0)
+        {
+            render.flipX = true;
+            anim.SetBool("IsRunning", true);
+        }
+        else if(inputHorizontal > 0)
+        {
+            render.flipX = false;
+            anim.SetBool("IsRunning", true);
+        }
+        else 
+        {
+            anim.SetBool("IsRunning", false);
         }
     }
 
-        //el fixedupdate no vambia los valores por fps, en cambio el update tiene en cuenta los fps;
     void FixedUpdate()
     {
-        rBody.velocity = new Vector2(inputHorizontal * movementSpeed, rBody.velocity.y);
+         rBody.velocity = new Vector2(inputHorizontal * movementSpeed, rBody.velocity.y);
     }
-
-
-
-
 }
