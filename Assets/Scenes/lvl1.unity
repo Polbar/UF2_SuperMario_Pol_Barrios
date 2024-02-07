@@ -1449,6 +1449,7 @@ GameObject:
   - component: {fileID: 38213915}
   - component: {fileID: 38213914}
   - component: {fileID: 38213913}
+  - component: {fileID: 38213916}
   m_Layer: 0
   m_Name: Goombas_0 (3)
   m_TagString: Untagged
@@ -1497,7 +1498,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &38213914
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1595,6 +1596,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &38213916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38213911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &40486088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3049,7 +3065,6 @@ GameObject:
   m_Component:
   - component: {fileID: 87874034}
   - component: {fileID: 87874035}
-  - component: {fileID: 87874036}
   m_Layer: 0
   m_Name: Tuberias_1 (1)
   m_TagString: Untagged
@@ -3124,51 +3139,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &87874036
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87874033}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 1}
-    newSize: {x: 2, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &90525268
 GameObject:
   m_ObjectHideFlags: 0
@@ -6255,7 +6225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newPosition: {x: 50, y: 5, z: 0}
-  movementSpeed: 8
+  movementSpeed: 10
   jump: 0
   rBody: {fileID: 0}
   jumpForce: 10
@@ -7428,6 +7398,7 @@ GameObject:
   - component: {fileID: 241306999}
   - component: {fileID: 241306998}
   - component: {fileID: 241306997}
+  - component: {fileID: 241307000}
   m_Layer: 0
   m_Name: Goombas_0
   m_TagString: Untagged
@@ -7476,7 +7447,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &241306998
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7574,6 +7545,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &241307000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241306995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &242321722
 GameObject:
   m_ObjectHideFlags: 0
@@ -8364,7 +8350,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.2287941, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8375,7 +8361,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 10.5}
+  m_Size: {x: 0.97200775, y: 10.5}
   m_EdgeRadius: 0
 --- !u!1 &276586118
 GameObject:
@@ -8855,6 +8841,7 @@ GameObject:
   - component: {fileID: 300388182}
   - component: {fileID: 300388181}
   - component: {fileID: 300388180}
+  - component: {fileID: 300388183}
   m_Layer: 0
   m_Name: Goombas_1
   m_TagString: Untagged
@@ -8903,7 +8890,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &300388181
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9001,6 +8988,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &300388183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300388178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &303300665
 GameObject:
   m_ObjectHideFlags: 0
@@ -9267,7 +9269,6 @@ GameObject:
   m_Component:
   - component: {fileID: 310375857}
   - component: {fileID: 310375858}
-  - component: {fileID: 310375859}
   m_Layer: 0
   m_Name: Tuberias_1 (1)
   m_TagString: Untagged
@@ -9342,51 +9343,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &310375859
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310375856}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 1}
-    newSize: {x: 2, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &310720451
 GameObject:
   m_ObjectHideFlags: 0
@@ -12243,7 +12199,6 @@ GameObject:
   m_Component:
   - component: {fileID: 402661359}
   - component: {fileID: 402661360}
-  - component: {fileID: 402661361}
   m_Layer: 0
   m_Name: Tuberias_1
   m_TagString: Untagged
@@ -12318,51 +12273,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &402661361
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402661358}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 1}
-    newSize: {x: 2, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &405022764
 GameObject:
   m_ObjectHideFlags: 0
@@ -13192,7 +13102,7 @@ Transform:
   m_GameObject: {fileID: 434552664}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -72.65, y: -1.7068994, z: 0}
+  m_LocalPosition: {x: -72.65, y: -2.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13282,7 +13192,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.99715173}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13293,7 +13203,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 2, y: 3.9943035}
   m_EdgeRadius: 0
 --- !u!1 &435023279
 GameObject:
@@ -19364,7 +19274,7 @@ Transform:
   m_GameObject: {fileID: 658818146}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -61.64, y: -1.7068994, z: 0}
+  m_LocalPosition: {x: -61.64, y: -1.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19454,7 +19364,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.997152}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -19465,7 +19375,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 2, y: 3.994304}
   m_EdgeRadius: 0
 --- !u!1 &660259738
 GameObject:
@@ -21985,6 +21895,7 @@ GameObject:
   - component: {fileID: 735229090}
   - component: {fileID: 735229089}
   - component: {fileID: 735229088}
+  - component: {fileID: 735229091}
   m_Layer: 0
   m_Name: Goombas_0
   m_TagString: Untagged
@@ -22033,7 +21944,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &735229089
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22131,6 +22042,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &735229091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735229086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &737906000
 GameObject:
   m_ObjectHideFlags: 0
@@ -24243,6 +24169,7 @@ GameObject:
   - component: {fileID: 826584218}
   - component: {fileID: 826584217}
   - component: {fileID: 826584216}
+  - component: {fileID: 826584219}
   m_Layer: 0
   m_Name: Goombas_0 (5)
   m_TagString: Untagged
@@ -24291,7 +24218,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &826584217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24389,6 +24316,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &826584219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826584214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &832207835
 GameObject:
   m_ObjectHideFlags: 0
@@ -32251,6 +32193,7 @@ GameObject:
   - component: {fileID: 1115581007}
   - component: {fileID: 1115581009}
   - component: {fileID: 1115581008}
+  - component: {fileID: 1115581010}
   m_Layer: 0
   m_Name: Goombas_1
   m_TagString: Untagged
@@ -32267,7 +32210,7 @@ Transform:
   m_GameObject: {fileID: 1115581005}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.10899, y: 3.7850099, z: 0}
+  m_LocalPosition: {x: -35.69266, y: 3.7850099, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32351,7 +32294,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1115581009
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32397,6 +32340,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1115581010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115581005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &1115710392
 GameObject:
   m_ObjectHideFlags: 0
@@ -36913,7 +36871,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.059700012, y: -0.600479}
+  m_Offset: {x: 0.0026397705, y: -0.600479}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -36924,7 +36882,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5035095, y: 0.32606864}
+  m_Size: {x: 0.57432556, y: 0.32606864}
   m_EdgeRadius: 0
 --- !u!114 &1307992839
 MonoBehaviour:
@@ -41737,6 +41695,7 @@ GameObject:
   - component: {fileID: 1542618181}
   - component: {fileID: 1542618180}
   - component: {fileID: 1542618179}
+  - component: {fileID: 1542618182}
   m_Layer: 0
   m_Name: Goombas_0 (4)
   m_TagString: Untagged
@@ -41785,7 +41744,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1542618180
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41883,6 +41842,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1542618182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542618177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &1543459166
 GameObject:
   m_ObjectHideFlags: 0
@@ -43935,6 +43909,7 @@ GameObject:
   - component: {fileID: 1601013324}
   - component: {fileID: 1601013327}
   - component: {fileID: 1601013326}
+  - component: {fileID: 1601013328}
   m_Layer: 0
   m_Name: Goombas_1
   m_TagString: Untagged
@@ -44003,7 +43978,7 @@ Transform:
   m_GameObject: {fileID: 1601013323}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32.946327, y: -3.9968867, z: 0.047256228}
+  m_LocalPosition: {x: -29.53, y: -3.9968867, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44080,7 +44055,22 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &1601013328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601013323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &1601970185
 GameObject:
   m_ObjectHideFlags: 0
@@ -44880,7 +44870,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1629322509}
   - component: {fileID: 1629322510}
-  - component: {fileID: 1629322511}
   m_Layer: 0
   m_Name: Tuberias_1
   m_TagString: Untagged
@@ -44955,51 +44944,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1629322511
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629322508}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 1}
-    newSize: {x: 2, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &1630648674
 GameObject:
   m_ObjectHideFlags: 0
@@ -46661,6 +46605,7 @@ GameObject:
   - component: {fileID: 1670040798}
   - component: {fileID: 1670040797}
   - component: {fileID: 1670040796}
+  - component: {fileID: 1670040799}
   m_Layer: 0
   m_Name: Goombas_0 (1)
   m_TagString: Untagged
@@ -46709,7 +46654,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1670040797
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46807,6 +46752,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1670040799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670040794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &1676770662
 GameObject:
   m_ObjectHideFlags: 0
@@ -48321,7 +48281,7 @@ Transform:
   m_GameObject: {fileID: 1737720219}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.013198853, y: -2.6513746, z: 0}
+  m_LocalPosition: {x: -0.013198853, y: -2.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -48411,7 +48371,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.52223015}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -48422,7 +48382,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 2, y: 3.0444603}
   m_EdgeRadius: 0
 --- !u!1 &1737723973
 GameObject:
@@ -48986,6 +48946,7 @@ GameObject:
   - component: {fileID: 1753535081}
   - component: {fileID: 1753535083}
   - component: {fileID: 1753535082}
+  - component: {fileID: 1753535084}
   m_Layer: 0
   m_Name: Goombas_1 (1)
   m_TagString: Untagged
@@ -49002,7 +48963,7 @@ Transform:
   m_GameObject: {fileID: 1753535079}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.12, y: 3.7850099, z: 0}
+  m_LocalPosition: {x: -33.70367, y: 3.7850099, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49086,7 +49047,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1753535083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49132,6 +49093,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1753535084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753535079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &1755672170
 GameObject:
   m_ObjectHideFlags: 0
@@ -51641,6 +51617,7 @@ GameObject:
   - component: {fileID: 1822558013}
   - component: {fileID: 1822558015}
   - component: {fileID: 1822558014}
+  - component: {fileID: 1822558016}
   m_Layer: 0
   m_Name: Goombas_0
   m_TagString: Untagged
@@ -51657,7 +51634,7 @@ Transform:
   m_GameObject: {fileID: 1822558011}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.285118, y: -3.9968867, z: 0.047256228}
+  m_LocalPosition: {x: 1.1312103, y: -3.9968867, z: 0.047256228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51786,7 +51763,22 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &1822558016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822558011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &1852445008
 GameObject:
   m_ObjectHideFlags: 0
@@ -55497,6 +55489,7 @@ GameObject:
   - component: {fileID: 1990520798}
   - component: {fileID: 1990520797}
   - component: {fileID: 1990520796}
+  - component: {fileID: 1990520799}
   m_Layer: 0
   m_Name: Goombas_0 (1)
   m_TagString: Untagged
@@ -55545,7 +55538,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1990520797
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55643,6 +55636,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1990520799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990520794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &1999026727
 GameObject:
   m_ObjectHideFlags: 0
@@ -56032,6 +56040,7 @@ GameObject:
   - component: {fileID: 2009001643}
   - component: {fileID: 2009001642}
   - component: {fileID: 2009001641}
+  - component: {fileID: 2009001644}
   m_Layer: 0
   m_Name: Goombas_0 (2)
   m_TagString: Untagged
@@ -56080,7 +56089,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2009001642
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56178,6 +56187,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2009001644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009001639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &2010988586
 GameObject:
   m_ObjectHideFlags: 0
@@ -58645,6 +58669,7 @@ GameObject:
   - component: {fileID: 2080652208}
   - component: {fileID: 2080652210}
   - component: {fileID: 2080652209}
+  - component: {fileID: 2080652211}
   m_Layer: 0
   m_Name: Goombas_1
   m_TagString: Untagged
@@ -58661,7 +58686,7 @@ Transform:
   m_GameObject: {fileID: 2080652206}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.770721, y: -3.9968867, z: 0.047256228}
+  m_LocalPosition: {x: -11.354393, y: -3.9968867, z: 0.047256228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58790,7 +58815,22 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &2080652211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080652206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d149a1c0e623544d96d1a050e2be37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rBody: {fileID: 0}
+  enemySpeed: 5
+  enemyDirection: 1
 --- !u!1 &2081000344
 GameObject:
   m_ObjectHideFlags: 0
@@ -60292,7 +60332,7 @@ Transform:
   m_GameObject: {fileID: 2140390269}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.09, y: -3.5941849, z: 0}
+  m_LocalPosition: {x: -17.673672, y: -3.5941849, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -60696,7 +60736,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2146701029}
   - component: {fileID: 2146701030}
-  - component: {fileID: 2146701031}
   m_Layer: 0
   m_Name: Tuberias_1
   m_TagString: Untagged
@@ -60771,51 +60810,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2146701031
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146701028}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 1}
-    newSize: {x: 2, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2, y: 1}
-  m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
