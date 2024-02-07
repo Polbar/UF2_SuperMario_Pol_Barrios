@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    public Transform playerTramsform;
+    public Transform playerTransform;
     public Vector3 offset;
              //vector3 es para tema de cordenadas asi que el vector 3 guarda para modificar el eje x y z
     public Vector2 minCameraPosition;
@@ -18,7 +18,9 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 desiredPosition = playerTramsform.position + offset;
+        if(playerTransform != null)
+        {
+        Vector3 desiredPosition = playerTransform.position + offset;
 
         float clampX = Mathf.Clamp(desiredPosition.x, minCameraPosition.x, maxCameraPosition.x);
         float clampY = Mathf.Clamp(desiredPosition.y, minCameraPosition.y, maxCameraPosition.y);
@@ -26,5 +28,6 @@ public class CameraMovement : MonoBehaviour
 
         Vector3 clampedPosition = new Vector3(clampX, clampY, desiredPosition.z);
         transform.position = clampedPosition;
+        }
     }
 }

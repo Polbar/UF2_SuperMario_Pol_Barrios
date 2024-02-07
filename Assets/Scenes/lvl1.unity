@@ -1450,7 +1450,8 @@ GameObject:
   - component: {fileID: 38213914}
   - component: {fileID: 38213913}
   - component: {fileID: 38213916}
-  m_Layer: 0
+  - component: {fileID: 38213917}
+  m_Layer: 7
   m_Name: Goombas_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1611,6 +1612,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &38213917
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38213911}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &40486088
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,7 +2492,7 @@ GameObject:
   - component: {fileID: 75242538}
   - component: {fileID: 75242539}
   - component: {fileID: 75242540}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberia 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3065,7 +3087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87874034}
   - component: {fileID: 87874035}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6067,7 +6089,7 @@ GameObject:
   - component: {fileID: 185554224}
   m_Layer: 0
   m_Name: Mario_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7399,7 +7421,8 @@ GameObject:
   - component: {fileID: 241306998}
   - component: {fileID: 241306997}
   - component: {fileID: 241307000}
-  m_Layer: 0
+  - component: {fileID: 241307001}
+  m_Layer: 7
   m_Name: Goombas_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7560,6 +7583,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &241307001
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241306995}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &242321722
 GameObject:
   m_ObjectHideFlags: 0
@@ -8842,7 +8886,8 @@ GameObject:
   - component: {fileID: 300388181}
   - component: {fileID: 300388180}
   - component: {fileID: 300388183}
-  m_Layer: 0
+  - component: {fileID: 300388184}
+  m_Layer: 7
   m_Name: Goombas_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9003,6 +9048,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &300388184
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300388178}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &303300665
 GameObject:
   m_ObjectHideFlags: 0
@@ -9269,7 +9335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 310375857}
   - component: {fileID: 310375858}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9864,7 +9930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 315337593}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tuberia 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12199,7 +12265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 402661359}
   - component: {fileID: 402661360}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13086,7 +13152,7 @@ GameObject:
   - component: {fileID: 434552665}
   - component: {fileID: 434552666}
   - component: {fileID: 434552667}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19258,7 +19324,7 @@ GameObject:
   - component: {fileID: 658818147}
   - component: {fileID: 658818148}
   - component: {fileID: 658818149}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21896,7 +21962,8 @@ GameObject:
   - component: {fileID: 735229089}
   - component: {fileID: 735229088}
   - component: {fileID: 735229091}
-  m_Layer: 0
+  - component: {fileID: 735229092}
+  m_Layer: 7
   m_Name: Goombas_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22057,6 +22124,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &735229092
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735229086}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &737906000
 GameObject:
   m_ObjectHideFlags: 0
@@ -22805,6 +22893,59 @@ Transform:
   - {fileID: 1990520795}
   m_Father: {fileID: 303300666}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &771362420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 771362421}
+  - component: {fileID: 771362422}
+  m_Layer: 6
+  m_Name: zonas invisibles (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &771362421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771362420}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.59, y: -7.94, z: -0.30346465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1423624626}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &771362422
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771362420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &772099061
 GameObject:
   m_ObjectHideFlags: 0
@@ -24170,7 +24311,8 @@ GameObject:
   - component: {fileID: 826584217}
   - component: {fileID: 826584216}
   - component: {fileID: 826584219}
-  m_Layer: 0
+  - component: {fileID: 826584220}
+  m_Layer: 7
   m_Name: Goombas_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24331,6 +24473,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &826584220
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826584214}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &832207835
 GameObject:
   m_ObjectHideFlags: 0
@@ -26613,7 +26776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a713cccf68e22546a26eeeff3a1b06b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTramsform: {fileID: 185554221}
+  playerTransform: {fileID: 185554221}
   offset: {x: 0, y: 0, z: -10}
   minCameraPosition: {x: -105.88, y: 0.71}
   maxCameraPosition: {x: 74.6, y: 10.1}
@@ -26961,6 +27124,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &934542685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 934542686}
+  - component: {fileID: 934542687}
+  m_Layer: 6
+  m_Name: zonas invisibles (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &934542686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934542685}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.54, y: 0.03, z: -0.30346465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1423624626}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &934542687
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934542685}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &939541001
 GameObject:
   m_ObjectHideFlags: 0
@@ -31764,7 +31980,7 @@ GameObject:
   - component: {fileID: 1105860414}
   - component: {fileID: 1105860416}
   - component: {fileID: 1105860415}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ladrillos_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32194,7 +32410,8 @@ GameObject:
   - component: {fileID: 1115581009}
   - component: {fileID: 1115581008}
   - component: {fileID: 1115581010}
-  m_Layer: 0
+  - component: {fileID: 1115581011}
+  m_Layer: 7
   m_Name: Goombas_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32355,6 +32572,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &1115581011
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115581005}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1115710392
 GameObject:
   m_ObjectHideFlags: 0
@@ -32916,7 +33154,7 @@ GameObject:
   - component: {fileID: 1156837690}
   - component: {fileID: 1156837692}
   - component: {fileID: 1156837691}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33342,7 +33580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1178872865}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tuberias
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34863,6 +35101,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1240626857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1240626858}
+  - component: {fileID: 1240626859}
+  m_Layer: 6
+  m_Name: zonas invisibles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1240626858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240626857}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.45, y: 0.03, z: -0.30346465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1423624626}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1240626859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240626857}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1245454255
 GameObject:
   m_ObjectHideFlags: 0
@@ -35812,7 +36103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1269034575}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tuberia 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35920,6 +36211,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1273477479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1273477480}
+  - component: {fileID: 1273477481}
+  m_Layer: 3
+  m_Name: LimiteIzquierda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1273477480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273477479}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -83.61078, y: -5.4760923, z: 0.123151064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1423624626}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1273477481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273477479}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0956955, y: 13.867954, z: 1}
+  m_Center: {x: 0.047847748, y: 2.0320616, z: 0}
 --- !u!1 &1287044559
 GameObject:
   m_ObjectHideFlags: 0
@@ -38922,6 +39266,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1423624625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423624626}
+  m_Layer: 0
+  m_Name: Limites
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423624626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423624625}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.69922, y: 3.7446578, z: 2.493243}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1273477480}
+  - {fileID: 1240626858}
+  - {fileID: 934542686}
+  - {fileID: 771362421}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1425857226
 GameObject:
   m_ObjectHideFlags: 0
@@ -41527,7 +41906,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1537257837}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tuberias
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41696,7 +42075,8 @@ GameObject:
   - component: {fileID: 1542618180}
   - component: {fileID: 1542618179}
   - component: {fileID: 1542618182}
-  m_Layer: 0
+  - component: {fileID: 1542618183}
+  m_Layer: 7
   m_Name: Goombas_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41857,6 +42237,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &1542618183
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542618177}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1543459166
 GameObject:
   m_ObjectHideFlags: 0
@@ -43910,7 +44311,8 @@ GameObject:
   - component: {fileID: 1601013327}
   - component: {fileID: 1601013326}
   - component: {fileID: 1601013328}
-  m_Layer: 0
+  - component: {fileID: 1601013329}
+  m_Layer: 7
   m_Name: Goombas_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44071,6 +44473,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &1601013329
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601013323}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1601970185
 GameObject:
   m_ObjectHideFlags: 0
@@ -44870,7 +45293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1629322509}
   - component: {fileID: 1629322510}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46606,7 +47029,8 @@ GameObject:
   - component: {fileID: 1670040797}
   - component: {fileID: 1670040796}
   - component: {fileID: 1670040799}
-  m_Layer: 0
+  - component: {fileID: 1670040800}
+  m_Layer: 7
   m_Name: Goombas_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46767,6 +47191,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &1670040800
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670040794}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1676770662
 GameObject:
   m_ObjectHideFlags: 0
@@ -48265,7 +48710,7 @@ GameObject:
   - component: {fileID: 1737720220}
   - component: {fileID: 1737720221}
   - component: {fileID: 1737720222}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48947,7 +49392,8 @@ GameObject:
   - component: {fileID: 1753535083}
   - component: {fileID: 1753535082}
   - component: {fileID: 1753535084}
-  m_Layer: 0
+  - component: {fileID: 1753535085}
+  m_Layer: 7
   m_Name: Goombas_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49108,6 +49554,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &1753535085
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753535079}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1755672170
 GameObject:
   m_ObjectHideFlags: 0
@@ -50890,7 +51357,7 @@ GameObject:
   - component: {fileID: 1806169967}
   - component: {fileID: 1806169969}
   - component: {fileID: 1806169968}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51618,7 +52085,8 @@ GameObject:
   - component: {fileID: 1822558015}
   - component: {fileID: 1822558014}
   - component: {fileID: 1822558016}
-  m_Layer: 0
+  - component: {fileID: 1822558017}
+  m_Layer: 7
   m_Name: Goombas_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51779,6 +52247,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &1822558017
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822558011}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1852445008
 GameObject:
   m_ObjectHideFlags: 0
@@ -53017,7 +53506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911511342}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tuberia 3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55490,7 +55979,8 @@ GameObject:
   - component: {fileID: 1990520797}
   - component: {fileID: 1990520796}
   - component: {fileID: 1990520799}
-  m_Layer: 0
+  - component: {fileID: 1990520800}
+  m_Layer: 7
   m_Name: Goombas_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55651,6 +56141,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &1990520800
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990520794}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1999026727
 GameObject:
   m_ObjectHideFlags: 0
@@ -56041,7 +56552,8 @@ GameObject:
   - component: {fileID: 2009001642}
   - component: {fileID: 2009001641}
   - component: {fileID: 2009001644}
-  m_Layer: 0
+  - component: {fileID: 2009001645}
+  m_Layer: 7
   m_Name: Goombas_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56202,6 +56714,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &2009001645
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009001639}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2010988586
 GameObject:
   m_ObjectHideFlags: 0
@@ -58670,7 +59203,8 @@ GameObject:
   - component: {fileID: 2080652210}
   - component: {fileID: 2080652209}
   - component: {fileID: 2080652211}
-  m_Layer: 0
+  - component: {fileID: 2080652212}
+  m_Layer: 7
   m_Name: Goombas_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58831,6 +59365,27 @@ MonoBehaviour:
   rBody: {fileID: 0}
   enemySpeed: 5
   enemyDirection: 1
+--- !u!95 &2080652212
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080652206}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2db775189ee9bf4bba41aa076246324, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2081000344
 GameObject:
   m_ObjectHideFlags: 0
@@ -60736,7 +61291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2146701029}
   - component: {fileID: 2146701030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tuberias_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60820,3 +61375,4 @@ SceneRoots:
   - {fileID: 1338382036}
   - {fileID: 271246771}
   - {fileID: 303300666}
+  - {fileID: 1423624626}
