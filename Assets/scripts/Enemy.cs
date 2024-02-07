@@ -24,16 +24,16 @@ public class Enemy : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.layer == 3)
+        if(collision.gameObject.layer == 3 || collision.gameObject.layer == 6 || collision.gameObject.layer == 7)
         {
-        if(enemyDirection == 1)
-        {
-            enemyDirection = -1;
-        }
-        else if(enemyDirection == -1)
-        {
-            enemyDirection = 1;
-        }
+            if(enemyDirection == 1)
+            {
+                enemyDirection = -1;
+            }
+            else if(enemyDirection == -1)
+            {
+                enemyDirection = 1;
+            }
         }
 
         if(collision.gameObject.tag == "Player")
