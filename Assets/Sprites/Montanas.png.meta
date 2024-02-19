@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 24ef4506f0ef6cf41a7902918ae9250a
+guid: 8d4d738195fdc354586f32143cca3627
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f3cdc7d59ebf0b4e9f779094bd0f76d
-      internalID: -1101882809
+      spriteID: 5fa25c3d8ad8b0540b6a0bdf3aecaf72
+      internalID: -1229051374
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b20a327756b44454bbd9c25cb079122e
-      internalID: -1852264914
+      spriteID: fb904398ca2b69644873fcab2df5eddd
+      internalID: 462349945
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Montanas_0: -1101882809
-      Montanas_1: -1852264914
+      Montanas_0: -1229051374
+      Montanas_1: 462349945
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

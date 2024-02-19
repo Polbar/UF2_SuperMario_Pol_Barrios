@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fe1a9adadd0a6ff469fbfdd194cf1799
+guid: 2769ca6f14331c244b5e1404f0cfbaa6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d0788f6a7508a346aa5e12abc8cd4c7
-      internalID: 1911325887
+      spriteID: cb61e6d33fc1a364495e110c482fb2bc
+      internalID: 381166911
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcbea74329ab6b94da99706cb96e5e0c
-      internalID: -1000732117
+      spriteID: 4efa6dbc905942f469ebe6a26b8d139d
+      internalID: 539955221
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed128b6ce1e414247a536bfd9ec0e416
-      internalID: -749904070
+      spriteID: 17dcd837d38333a46842ce6fa087c8d4
+      internalID: -358908988
       vertices: []
       indices: 
       edges: []
@@ -183,9 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Goombas_0: 1911325887
-      Goombas_1: -1000732117
-      Goombas_2: -749904070
+      Goombas_0: 381166911
+      Goombas_1: 539955221
+      Goombas_2: -358908988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

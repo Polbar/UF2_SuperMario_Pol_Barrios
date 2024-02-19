@@ -14,12 +14,15 @@ public class PlayerMove : MonoBehaviour
     public GroundSensor sensor;
     public SpriteRenderer render;
     public Animator anim;
+    AudioSource source;
+    public AudioClip jumpSound;
 
     void Awake()
     {
         rBody = GetComponent<Rigidbody2D>();
         render = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
     }
 
     // Start is called before the first frame update
@@ -53,6 +56,7 @@ public class PlayerMove : MonoBehaviour
         {
                rBody.AddForce(new Vector2(0,1) * jumpForce, ForceMode2D.Impulse);   
                anim.SetBool("IsJumping", true);
+               source.PlayOneShot(jumpSound);
         }
         
         if(inputHorizontal < 0)
@@ -74,5 +78,7 @@ public class PlayerMove : MonoBehaviour
     void FixedUpdate()
     {
          rBody.velocity = new Vector2(inputHorizontal * movementSpeed, rBody.velocity.y);
+        
     }
 }
+

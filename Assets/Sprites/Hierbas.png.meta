@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b7cb8651e34da3848b62a6c8b8828628
+guid: fef1c75bc6cbffa438b099d65db4798b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40c43cea629a6ff44a48442bdb02710f
-      internalID: -250827189
+      spriteID: 0946f7d90bf4a0a4f8e79e4e15e709ef
+      internalID: -478426638
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dd9c55d16160f7429ba9a445d3cae35
-      internalID: 2122384901
+      spriteID: 1fce94be0b629d44a82df34af8ef3a8b
+      internalID: -930792632
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ea9bf45a726e314190a839bee55eecd
-      internalID: -505406564
+      spriteID: 7fa59a87ff11d8f4eadba194f1ab47c3
+      internalID: 2070900317
       vertices: []
       indices: 
       edges: []
@@ -183,9 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hierbas_0: -250827189
-      Hierbas_1: 2122384901
-      Hierbas_2: -505406564
+      Hierbas_0: -478426638
+      Hierbas_1: -930792632
+      Hierbas_2: 2070900317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
