@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Enemy : MonoBehaviour
     private AudioSource source; 
     public AudioClip deathSound;
     private BoxCollider2D boxCollider;
+    
     
     // Start is called before the first frame update
     void Awake()
@@ -41,6 +43,7 @@ public class Enemy : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             Destroy(collision.gameObject);
+            SceneManager.LoadScene("Game over");
         }
     }
 
